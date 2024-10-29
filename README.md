@@ -15,8 +15,7 @@
 - wNumb Formatter - https://refreshless.com/wnumb/
 - Bootstrap select v1.14.0-beta3 - https://github.com/snapappointments/bootstrap-select 
 - Bootstrap paginator - https://github.com/jorgefernando1/simple-bootstrap-paginator
-- Leaflet Fullscreen - https://github.com/Leaflet/Leaflet.fullscreen 
+- Leaflet Fullscreen v 1.0.1 - https://github.com/Leaflet/Leaflet.fullscreen 
 - Proj4 v2.8.0 
 - Fontawesome v5.6.3
-- Leaflet Fullscreen v 1.0.1 - https://github.com/Leaflet/Leaflet.fullscreen 
 - Chart JS v 2.4.0
