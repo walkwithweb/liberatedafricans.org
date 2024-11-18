@@ -1,5 +1,5 @@
 # liberatedafricans.org
-- Last Updated: October 28 2024
+- Last Updated: Nov 18 2024
 
 ## database download 
 - Download the Liberated Africans database here: https://liberatedafricans.org/data/download.php 
