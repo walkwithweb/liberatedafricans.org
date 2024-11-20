@@ -113,7 +113,7 @@
                                                         $f = 0;
                                                         $dname = '';
                                                         foreach($temp as $tval){
-                                                            $sql = "SELECT x.* FROM " . $value['Options'] . " x WHERE ID=" . $person[$value['ColumnName']] . " limit 1;";
+                                                            $sql = "SELECT x.* FROM " . $value['Options'] . " x WHERE ID=" . $tval . " limit 1;";
                                                             $query = $conn->query($sql);
                                                             $dynamic = $query->fetch(PDO::FETCH_ASSOC);
                                                             if($dynamic){
@@ -178,7 +178,7 @@
                                                             $f = 0;
                                                             $dname = '';
                                                             foreach($temp as $tval){
-                                                                $sql = "SELECT x.* FROM " . $value['Options'] . " x WHERE ID=" . $person[$value['ColumnName']] . " limit 1;";
+                                                                $sql = "SELECT x.* FROM " . $value['Options'] . " x WHERE ID=" . $tval . " limit 1;";
                                                                 $query = $conn->query($sql);
                                                                 $dynamic = $query->fetch(PDO::FETCH_ASSOC);
                                                                 if($dynamic){
@@ -282,7 +282,7 @@
                                                                                 $f = 0;
                                                                                 $dname = '';
                                                                                 foreach($temp as $tval){
-                                                                                    $sql = "SELECT x.* FROM " . $value['Options'] . " x WHERE ID=" . $Source[$value['ColumnName']] . " limit 1;";
+                                                                                    $sql = "SELECT x.* FROM " . $value['Options'] . " x WHERE ID=" . $tval . " limit 1;";
                                                                                     $query = $conn->query($sql);
                                                                                     $dynamic = $query->fetch(PDO::FETCH_ASSOC);
                                                                                     if($dynamic){
