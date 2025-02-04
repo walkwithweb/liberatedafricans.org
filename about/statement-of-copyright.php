@@ -7,7 +7,7 @@
       <?php require_once("../public/header.php"); ?>
       <div class="container-fluid content">
         <?php
-            $sql = "SELECT x.* FROM About x WHERE Title = 'Ethics'";
+            $sql = "SELECT x.* FROM About x WHERE Title = 'Copyright'";
             $query = $conn->query($sql);
             $row = $query->fetch(PDO::FETCH_ASSOC);
             if(!$row){
