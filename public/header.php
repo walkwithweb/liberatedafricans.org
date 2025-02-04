@@ -18,7 +18,7 @@
             <ul class="dropdown-menu py-2" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="../about/project-team.php">Team</a></li>
               <li><a class="dropdown-item" href="../about/essays.php">Essays</a></li>
-              <li><a class="dropdown-item" href="../about/statement-of-ethics.php">Copyright</a></li>
+              <li><a class="dropdown-item" href="../about/statement-of-copyright.php">Copyright</a></li>
               <li><a class="dropdown-item" href="../about/research.php">Research</a></li>
 
             </ul>
