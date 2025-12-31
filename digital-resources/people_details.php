@@ -259,7 +259,7 @@
                                                         <div class="carousel-item <?php echo $activeClass; ?>">
                                                             <div class="row">
                                                                 <div class="col-md-8">
-                                                                    <iframe src="https://vi.regeneratedidentities.org/project/project<?php echo $Source['File'] ?>" style="width:100%; height:100%; padding-top: 1.2rem;" noresize=yes frameborder=0 marginheight=0 marginwidth=0 scrolling="no"></iframe>
+                                                                    <iframe src="<?php echo $Source['File'] ?>" style="width:100%; height:100%; padding-top: 1.2rem;" noresize=yes frameborder=0 marginheight=0 marginwidth=0 scrolling="no"></iframe>
                                                                 </div>
                                                                 <div class="col-md-4 source_details">
                                                                     <h3> Source Details</h3>
